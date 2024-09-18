@@ -8,6 +8,10 @@
         body {
             font-family: Arial, sans-serif;
         }
+	#searchHeader {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
         #searchBar {
             margin-bottom: 20px;
             padding: 10px;
@@ -21,7 +25,8 @@
     </style>
 </head>
 <body>
-    <input type="text" id="searchBar" placeholder="Search for names..." onkeyup="filterLinks()">
+    <div id="searchHeader">Search for Medicines:</div>
+    <input type="text" id="searchBar" placeholder="Type name to search..." onkeyup="filterLinks()">
 
     <div id="linkList">
         <div class="link-item"><a href="https://pratikpailwan7.github.io/scan_medicine_info/zerodol_sp.html">Zerodol P</a></div>
